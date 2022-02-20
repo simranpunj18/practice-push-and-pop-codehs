@@ -1,0 +1,32 @@
+function start(){
+	var arr = [];
+	
+	arr.push("A");
+	arr.push("B");
+	arr.push("C");
+	arr.push("D");
+	arr.push("E");
+	arr.push("F");
+	println(arr[0]);
+	println(arr[1]);
+	println(arr[2]);
+	println(arr[3]);
+	println(arr[4]);
+	println(arr[5]);
+	arr.pop();
+	arr.pop();
+	println(arr[0]);
+	println(arr[1]);
+	println(arr[2]);
+	println(arr[3]);
+	println(arr[4]);
+	println(arr[5]);
+	
+}
+	/*
+	for(var i = 0; i < arr.length; i++){
+	    println(arr[i]);
+	}
+	arr.pop();
+	arr.pop();
+*/
